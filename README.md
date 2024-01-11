@@ -80,18 +80,8 @@ To give commands to the console, these will need to be piped through an echo in 
 In Interactive Mode, the commands will need to be written with a keyboard when the prompt appears and will be recognized when an enter key is pressed (new line). As soon as this happens, the console will attempt to execute the command through several means or will show an error message if the command doesn't run successfully. In this mode, the console can be exited using the CTRL + D combination, CTRL + C, or the command quit or EOF.
 Arguments
 Most commands have several options or arguments that can be used when executing the program. For the Shell to recognize those parameters, the user must separate everything with spaces.
-Example:
-user@ubuntu:~/AirBnB$ ./console.py
-(hbnb) create BaseModel
-8faafa-89012-7851f-87b6-910505c559af
-user@ubuntu:~/AirBnB$ ./console.py
-or
-user@ubuntu:~/AirBnB$ ./console.py $ echo "create BaseModel" | ./console.py
-(hbnb)
-8faafa-89012-7851f-87b6-910505c559af
-(hbnb)
-user@ubuntu:~/AirBnB$ ./console.py
-Available commands and what they do
+
+Available commands and what they do:
 The recognizable commands by the interpreter are the following:
 CommandDescription
 quit or EOF	Exits the program
